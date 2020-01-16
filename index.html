@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .flex{
+            width: 350px;
+            height: 200px;
+            border: 1px solid #555555;
+            font: 14px Arial;
+            display: -webkit-flex;
+            -webkit-flex-direction:row;
+            display: flex;
+            flex-direction: row;
+        }
+        .flex > div{
+            -webkit-flex:1 1 auto;
+            flex: 1 1 auto;
+            width: 30px;
+            -webkit-transition: width 0.7s ease-out;
+            transition: width 0.7s ease-out;
+        }
+        .flex > div:nth-child(1){background: #009246;}
+        .flex > div:nth-child(2){background: #f1f2f1;}
+        .flex > div:nth-child(3){background: #ce2b37;}
+
+        .flex > div:hover{
+            width: 200px;
+        }
+
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <p>Flexbox nuevo</p>
+    <div class="flex">
+        <div>uno</div>
+        <div>dos</div>
+        <div>tres</div>
+    </div>
+</body>
+</html>
