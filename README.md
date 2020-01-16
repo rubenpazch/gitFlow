@@ -2,15 +2,14 @@
 
 > This project tries to make a clone from youtube layouts using  flexbox.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screem-site.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- CSS and HTML
+- Flexbox
 
 ## Live Demo
 
