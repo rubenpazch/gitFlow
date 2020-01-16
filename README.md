@@ -39,7 +39,7 @@ Additional description about the project and its features.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [https://github.com/rubenpazch/gitFlow/](issues/).
+Feel free to check the [https://github.com/rubenpazch/gitFlow/issues/].
 
 ## Show your support
 
