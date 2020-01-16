@@ -30,7 +30,7 @@ Additional description about the project and its features.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 **Ruben Paz Chuspe**
 
 - Github: [@rubenpazch](https://github.com/rubenpazch)
 - Linkedin: [rubenpch](https://www.linkedin.com/in/rubenpch/)
@@ -39,7 +39,7 @@ Additional description about the project and its features.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [https://github.com/rubenpazch/gitFlow/](issues/).
 
 ## Show your support
 
