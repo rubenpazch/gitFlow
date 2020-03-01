@@ -1,34 +1,25 @@
-# Embedding Images and Video
+# Building a catstone project for a conference page
 
-> This project tries to make a clone from youtube layouts using  flexbox.
+## Project specifications
 
-![screenshot](./screem-site.png)
+Capstone projects are solo projects at the end of the each of the Microverse Main Technical Curriculum sections. Building this project is very important for you because:
 
-Additional description about the project and its features.
++ It's a real-world-like project, built with business specifications that will look really nice in your portfolio; and
++ You will get feedback about the achievement of technical and soft skills gained during this section of the program.
+
+The project you are going to build for the HTML & CSS Capstone Project is based on an online website for a conference. You should follow the given design of the website, but you must personalise the content, i.e., instead of a conference you can build a website for a concert or for a web development course. It's very important the you personalise your project, so that you have something unique in your portfolio to share with potential employers during your job search.
 
 ## Built With
 
-- CSS and HTML
-- Flexbox
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://embedding-images-and-video-rs.000webhostapp.com/)
-
-
-## Getting Started
-
-**This is a static page and was made using  CSS & HTML, you don't need .**
-**anything to start up this page, is already published in a public repository so you can check the final result. For a better understanding of the code read about FlexBox.**
+[Preview](https://heuristic-wiles-1caea6.netlify.com/)
 
 
 ## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
 
 👤 **Ruben Paz Chuspe**
 
@@ -39,7 +30,7 @@ Additional description about the project and its features.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the (https://github.com/rubenpazch/gitFlow/issues).
+Feel free to check the [issues page](issues/).
 
 ## Show your support
 

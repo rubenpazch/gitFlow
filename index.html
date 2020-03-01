@@ -1,45 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-        .flex{
-            width: 350px;
-            height: 200px;
-            border: 1px solid #555555;
-            font: 14px Arial;
-            display: -webkit-flex;
-            -webkit-flex-direction:row;
-            display: flex;
-            flex-direction: row;
-        }
-        .flex > div{
-            -webkit-flex:1 1 auto;
-            flex: 1 1 auto;
-            width: 30px;
-            -webkit-transition: width 0.7s ease-out;
-            transition: width 0.7s ease-out;
-        }
-        .flex > div:nth-child(1){background: #009246;}
-        .flex > div:nth-child(2){background: #f1f2f1;}
-        .flex > div:nth-child(3){background: #ce2b37;}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous" />
 
-        .flex > div:hover{
-            width: 200px;
-        }
-
-    </style>
-
-    <title>Document</title>
+  <title>Casptone Conference Project</title>
 </head>
+
 <body>
-    <p>Flexbox nuevo</p>
-    <div class="flex">
-        <div>uno</div>
-        <div>dos</div>
-        <div>tres</div>
+
+  <header class="top-bar" id="top-bar-1">
+    <nav class="nav-black-bar">
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#">English</a></li>
+        <li><a href="#">My Paga</a></li>
+        <li><a href="#">Logout</a></li>
+      </ul>
+    </nav>
+    <nav class="nav-white-bar" id="nav-sticky-element">
+      <a href="#"><img src="./img/logo-cusco-solutions.svg" alt=""></a>
+      <ul>
+        <li><a href="#top-bar-1">Home</a></li>
+        <li><a href="#programsection">Program</a></li>
+        <li><a href="#speakersection">Speakers</a></li>
+        <li><a href="#sponsorsection">Sponsor</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <nav id="top-bar-2">
+    <div class="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="tickets.html">Tickets</a></li>
+      </ul>
     </div>
+  </nav>
+  <main>
+
+  <div class="bg-cover">
+    <section class=" container-cover">
+      <h2>Workshop E-Commerce</h2>
+      <h1>Build your e-Commerce winter 2020</h1>
+      <p>In this face-to-face workshop we will show you how to make the Online Store for Your Business easily, quickly
+        and economically with a professional hosting service and your own domain registration.</p>
+      <h3>2020.05.18(MON) - 22(FRI).</h3>
+      <h4>@Cuscosolutions is happy to have you on this important event.</h4>
+    </section>
+  </div>
+
+  <section class="container-program" id="programsection">
+
+    <h2>Main program</h2>
+    <span></span>
+
+    <div class="program-activities">
+      <article> 
+        <img src="img/podium1.svg" alt="">       
+        <header>
+          <h2>Lecture</h2>
+        </header>
+        <p>Participate in this experience and learn from experts from the market.</p>
+      </article>
+      <article>
+        <img src="img/exhibition-logo.svg" alt="">
+        <header>
+          <h2>CS Exhibition</h2>
+        </header>
+        <p>For this amazing workshop, we selected the best tools available on the market for the success of your business.</p>
+      </article>
+      <article>
+        <img src="img/forum-logo.svg" alt="">
+        <header>
+          <h2>Forum</h2>
+        </header>
+        <p>We are always happy to listen to you, during the entire workshop it will be available the forum for any question you have.</p>
+      </article>
+      <article>
+        <img src="img/podium1.svg" alt="">
+        <header>
+          <h2>Workshop</h2>
+        </header>
+        <p>For this amazing program, we selected the best tools available on the market for the success of your business.</p>
+      </article>
+      <article>
+        <img src="img/podium1.svg" alt="">
+        <header>
+          <h2>CS Ignite</h2>
+        </header>
+        <p>For this amazing program, we selected the best tools available on the market for the success of your business.</p>
+      </article>
+    </div>
+
+    <h3 id="SeeWholeProgram"><a href="">see the whole program</a> </h3>
+
+    <button id="btnJoinWorkshop">Join Workshop 2020</button>
+  </section>
+
+  <section class="container-featured" id="speakersection">
+    <h2>Featured speakers</h2>
+    <span></span>
+    <div class="speaker-preview">
+      <article>
+        <div class="card-picture">
+          <img class="picture-back-png" src="./img/blank-png-file-1.png" alt="">
+          <img src="./img/avid.jpg" alt="">
+        </div>
+        <div class="card-content">
+          <header>
+            <h2>Avid Roman-Gonzalez
+            </h2>
+          </header>
+          <h3>Coordinator of the Image Processing Reserach Laboratory - INTI-Lab at Universidad de Ciencias y Humanidades (UCH) </h3>
+          <span></span>
+          <p>IEEE Senior Member, IEEE – AESS Distinguished Lecturer, and Regional Coordinator of South America for the Space Generation Advisory Council – SGAC. </p>
+        </div>
+      </article>
+      <article>
+        <div class="card-picture">
+          <img class="picture-back-png" src="./img/blank-png-file-1.png" alt="">
+          <img src="./img/speaker1.jpg" alt="">
+        </div>
+        <div class="card-content">
+          <header>
+            <h2>name1 last </h2>
+          </header>
+          <h3>For this amazing program, we selected the best tools available on the market for the success of your business. </h3>
+          <span></span>
+          <p>For this amazing program, we selected the best tools available on the market for the success of your business.</p>
+        </div>
+      </article>
+      <article>
+        <div class="card-picture">
+          <img class="picture-back-png" src="./img/blank-png-file-1.png" alt="">
+          <img src="./img/angie.jpg" alt="">
+        </div>
+        <div class="card-content">
+          <header>
+            <h2>Angie sangama</h2>
+          </header>
+          <h3>Intern Talent Fulfillment Professional en Belatrix Software. </h3>
+          <span></span>
+          <p>Student of the 10th cycle of the Administration and Entrepreneurship career with a major in International Business and Social Responsibility at the San Ignacio de Loyola University..</p>
+        </div>
+      </article>
+      <article>
+        <div class="card-picture">
+          <img class="picture-back-png" src="./img/blank-png-file-1.png" alt="">
+          <img src="./img/firmo.jpg" alt="">
+        </div>
+        <div class="card-content">
+          <header>
+            <h2>Firmo Holanda</h2>
+          </header>
+          <h3>Full Stack Engineer · Ruby on Rails Developer · Javascript Developer · Python Developer. </h3>
+          <span></span>
+          <p>full stack web developer with experience in building responsive websites and web applications. specialized in ruby on rails, react and redux.</p>
+        </div>
+      </article>
+      <article>
+        <div class="card-picture">
+          <img class="picture-back-png" src="./img/blank-png-file-1.png" alt="">
+          <img src="./img/carlos.jpg" alt="">
+        </div>
+        <div class="card-content">
+          <header>
+            <h2>Carlos Valderrama</h2>
+          </header>
+          <h3>Full Stack Engineer at Silicon Valley Bank </h3>
+          <span></span>
+          <p> Extensive experience in enterprise software development life-cycle.
+            - Proven expertise in software architecture design on Core Java, SpringBoot. I am using the last JavaScript Frameworks</p>
+        </div>
+      </article>
+      <article>
+        <div class="card-picture">
+          <img class="picture-back-png" src="./img/blank-png-file-1.png" alt="">
+          <img src="./img/speaker1.jpg" alt="">
+        </div>
+        <div class="card-content">
+          <header>
+            <h2>name1 last name</h2>
+          </header>
+          <h3>For this amazing program, we selected the best tools available on the market for the success of your business. </h3>
+          <span></span>
+          <p>For this amazing program, we selected the best tools available on the market for the success of your business.</p>
+        </div>
+      </article>
+
+    </div>
+
+  </section>
+
+  <section class="container-partner" id="sponsorsection">
+    <h2>Partner</h2>
+    <span></span>
+    <div class="list-sponsor-logo">
+      <img src="./img/logo-turitika.svg" alt="">
+      <img src="./img/cusco-tours-logo.svg" alt="">
+      <img src="./img/culqui-logo.svg" alt="">
+      <img src="./img/microverse-logo.svg" alt="">
+      <img src="./img/cusco-gray-logo.svg" alt="">
+    </div>
+  </section>
+</main>
+  <footer class="footer-container">
+    <img class="img-footer" src="./img/cc-logo-dark.svg" alt="">
+    <div class="content-footer">
+      <h2>2020 Creaative Commons Korea. Some Rights Reserved</h2>
+      <p>
+        2020 Creaative Commos korea ( <a
+          href="https://creativecommons.org/">https://creativecommons.org/</a> ) Some Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/animation.js"></script>
 </body>
+
 </html>
