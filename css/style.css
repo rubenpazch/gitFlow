@@ -957,6 +957,26 @@ body {
   background-color: #fbfbfb;
 }
 
+.top-bar-md {
+  position: relative;
+}
+
+.ham-bars {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  display: block;
+  top: 10px;
+  left: 20px;
+}
+
+.card-content header h2 {
+  font-family: "lato", sans-serif;
+  text-transform: capitalize;
+  font-size: 1.8vw;
+  font-weight: bolder;
+}
+
 .nav-bar-root ul {
   display: flex;
   flex-flow: row;
@@ -988,19 +1008,6 @@ body {
   display: none;
 }
 
-.top-bar-md {
-  position: relative;
-}
-
-.ham-bars {
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  display: block;
-  top: 10px;
-  left: 20px;
-}
-
 .program-activities article:hover {
   border: 3px solid #fff;
 }
@@ -1012,13 +1019,6 @@ body {
   line-height: 25px;
   font-weight: 300;
   font-size: 1.2vw;
-}
-
-.card-content header h2 {
-  font-family: "lato", sans-serif;
-  text-transform: capitalize;
-  font-size: 1.8vw;
-  font-weight: bolder;
 }
 
 .program-activities article img {
