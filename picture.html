@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .principal {
+      width: 100%;
+      display: flex;
+      flex-flow: row;
+      height: 160px;
+      justify-content: center;
+    }
+
+    .element {
+      width: 100%;
+      border: 1px solid #333;      
+      background-image: url(433550.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      min-width: 150px;
+      max-width: 170px;
+    }
+    @media (max-width: 1024px) {
+      .element {
+        min-width: 100px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+    <div class="principal">
+      <div class="element"></div>
+      <div class="element"></div>
+      <div class="element"></div>
+      <div class="element"></div>
+    </div>
+</body>
+</html>
