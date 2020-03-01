@@ -889,10 +889,6 @@ body {
   z-index: 2;
 }
 
-.menuToggle input:checked ~ ul {
-  transform: none;
-}
-
 .menu {
   position: absolute;
   width: 200px;
@@ -931,24 +927,6 @@ body {
   display: flex;
   flex-flow: row;
   align-items: center;
-}
-
-.nav-black-bar ul li {
-  display: inline;
-  color: #fff;
-  line-height: 20px;
-  padding: 5px 10px 5px 10px;
-}
-
-.nav-black-bar ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.nav-black-bar ul li a i {
-  width: 16px;
-  height: 16px;
-  color: #fff;
 }
 
 .nav-white-bar {
@@ -1036,18 +1014,18 @@ body {
   font-size: 1.2vw;
 }
 
-.program-activities article img {
-  height: 4vw;
-  z-index: 999;
-  margin-top: 35px;
-  margin-bottom: 15px;
-}
-
 .card-content header h2 {
   font-family: "lato", sans-serif;
   text-transform: capitalize;
   font-size: 1.8vw;
   font-weight: bolder;
+}
+
+.program-activities article img {
+  height: 4vw;
+  z-index: 999;
+  margin-top: 35px;
+  margin-bottom: 15px;
 }
 
 .container-program h3 a {
@@ -1079,6 +1057,18 @@ body {
   padding-right: 3.5vw;
 }
 
+.nav-black-bar ul li {
+  display: inline;
+  color: #fff;
+  line-height: 20px;
+  padding: 5px 10px 5px 10px;
+}
+
+.nav-black-bar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .nav-white-bar ul li a {
   text-decoration: none;
   color: #272a31;
@@ -1090,6 +1080,16 @@ body {
   font-weight: 600;
   color: #ffca4c;
   margin-bottom: 10px;
+}
+
+.nav-black-bar ul li a i {
+  width: 16px;
+  height: 16px;
+  color: #fff;
+}
+
+.menuToggle input:checked ~ ul {
+  transform: none;
 }
 
 .nav-white-bar ul li:last-child {
