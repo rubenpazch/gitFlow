@@ -133,10 +133,6 @@ body {
   padding-top: 3vw;
 }
 
-.container-program h3 a {
-  color: #fff;
-}
-
 .container-program button {
   background-color: #ffca4c;
   padding: 3vh 4vw;
@@ -164,32 +160,8 @@ body {
   text-align: center;
 }
 
-.program-activities article img {
-  height: 4vw;
-  z-index: 999;
-  margin-top: 35px;
-  margin-bottom: 15px;
-}
-
 .program-activities article header {
   padding: 0 0;
-}
-
-.program-activities article header h2 {
-  font-family: "lato", sans-serif;
-  font-size: 1.4vw;
-  font-weight: 600;
-  color: #ffca4c;
-  margin-bottom: 10px;
-}
-
-.program-activities article p {
-  color: #fff;
-  padding: 0 10px;
-  font-family: "lato", sans-serif;
-  line-height: 25px;
-  font-weight: 300;
-  font-size: 1.2vw;
 }
 
 .program-activities article::after {
@@ -202,10 +174,6 @@ body {
   bottom: 0;
   right: 0;
   content: "";
-}
-
-.program-activities article:hover {
-  border: 3px solid #fff;
 }
 
 #SeeWholeProgram {
@@ -273,13 +241,6 @@ body {
   justify-content: start;
   padding-left: 1.3vw;
   padding-right: 4.3vw;
-}
-
-.card-content header h2 {
-  font-family: "lato", sans-serif;
-  text-transform: capitalize;
-  font-size: 1.8vw;
-  font-weight: bolder;
 }
 
 .card-content h3 {
@@ -381,12 +342,6 @@ body {
   line-height: 20px;
 }
 
-.content-footer p a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #272a31;
-}
-
 .img-footer {
   width: 20vw;
 }
@@ -416,12 +371,6 @@ body {
 .content-footer-dark p {
   font-family: "lato", sans-serif;
   line-height: 20px;
-  color: #fff;
-}
-
-.content-footer-dark p a {
-  font-weight: bold;
-  text-decoration: none;
   color: #fff;
 }
 
@@ -1131,6 +1080,57 @@ body {
   display: block;
   top: 10px;
   left: 20px;
+}
+
+.program-activities article:hover {
+  border: 3px solid #fff;
+}
+
+.program-activities article p {
+  color: #fff;
+  padding: 0 10px;
+  font-family: "lato", sans-serif;
+  line-height: 25px;
+  font-weight: 300;
+  font-size: 1.2vw;
+}
+
+.program-activities article img {
+  height: 4vw;
+  z-index: 999;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.card-content header h2 {
+  font-family: "lato", sans-serif;
+  text-transform: capitalize;
+  font-size: 1.8vw;
+  font-weight: bolder;
+}
+
+.container-program h3 a {
+  color: #fff;
+}
+
+.content-footer p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #272a31;
+}
+
+.program-activities article header h2 {
+  font-family: "lato", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 600;
+  color: #ffca4c;
+  margin-bottom: 10px;
+}
+
+.content-footer-dark p a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
