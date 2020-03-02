@@ -61,6 +61,14 @@
   font-size: 1.2vw;
 }
 
+.f-lg-lato-1-2-300 {
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.2vw;
+  line-height: 25px;
+  color: #fff;
+}
+
 .f-lg-lato-0-9-400 {
   font-family: "lato", sans-serif;
   font-weight: 400;
@@ -244,12 +252,7 @@ body {
 }
 
 .item-activitie p {
-  color: #fff;
   padding: 0 10px;
-  font-family: "lato", sans-serif;
-  line-height: 25px;
-  font-weight: 300;
-  font-size: 1.2vw;
 }
 
 .container-featured {
@@ -1428,12 +1431,7 @@ body {
   }
 
   .item-activitie p {
-    color: #fff;
-    padding: 0 10px;
-    font-family: "lato", sans-serif;
-    line-height: 25px;
-    font-weight: 300;
-    font-size: 1.2vw;
+    padding: 0 5vw;
   }
 
   #SeeWholeProgram {
@@ -1494,6 +1492,12 @@ body {
     width: 90vw;
   }
 
+  .f-md-lato-3-0-100-l {
+    font-family: "lato", sans-serif;
+    text-align: left;
+    line-height: 35px;
+  }
+
   .f-md-lato-2-8-bolder {
     font-family: "lato", sans-serif;
     text-transform: capitalize;
@@ -1501,10 +1505,12 @@ body {
     font-weight: bolder;
   }
 
-  .f-md-lato-3-0-100-l {
+  .f-md-lato-1-9-300 {
     font-family: "lato", sans-serif;
-    text-align: left;
-    line-height: 35px;
+    font-weight: 300;
+    font-size: 1.9vw;
+    color: #fff;
+    line-height: 25px;
   }
 
   .pb-md-1vw {
