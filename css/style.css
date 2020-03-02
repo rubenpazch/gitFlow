@@ -212,22 +212,6 @@ body {
   flex-flow: row;
 }
 
-.program-activities article::after {
-  background-color: #fff;
-  opacity: 0.2;
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  content: "";
-}
-
-.program-activities article:hover {
-  border: 3px solid #fff;
-}
-
 .item-activitie {
   width: 16vw;
   height: 50vh;
@@ -1113,6 +1097,22 @@ body {
 .link-nav-black-bar-white {
   text-decoration: none;
   color: #fff;
+}
+
+.program-activities article::after {
+  background-color: #fff;
+  opacity: 0.2;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+}
+
+.program-activities article:hover {
+  border: 3px solid #fff;
 }
 
 .list-nav-bar li:last-child {
