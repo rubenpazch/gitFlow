@@ -68,6 +68,13 @@
   color: #272a31;
 }
 
+.f-lg-lato-0-9-400-w {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
 .f-lg-lato-0-9-700 {
   font-family: "lato", sans-serif;
   font-weight: 700;
@@ -405,12 +412,6 @@ body {
 .content-footer-white p {
   font-family: "lato", sans-serif;
   line-height: 20px;
-}
-
-.content-footer-white p a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #272a31;
 }
 
 .footer-container-dark {
