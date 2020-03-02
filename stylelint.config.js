@@ -11,7 +11,6 @@ module.exports = {
       ignore: ["after-comment"],
     } ],
     "at-rule-name-case": "lower",
-    "at-rule-no-unknown": null,
     "at-rule-name-space-after": "always-single-line",
     "at-rule-semicolon-newline-after": "always",
     "block-closing-brace-empty-line-before": "never",
