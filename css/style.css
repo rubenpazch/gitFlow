@@ -12,21 +12,6 @@
   src: url("../fonts/lato-v16-latin-regular.eot?") format("eot"), url("../fonts/lato-v16-latin-regular.woff") format("woff"), url("../fonts/lato-v16-latin-regular.ttf") format("truetype"), url("../fonts/lato-v16-latin-regular.svg#Lato") format("svg");
 }
 
-.f-lg-lato-1-8-bolder {
-  font-family: "lato", sans-serif;
-  text-transform: capitalize;
-  font-size: 1.8vw;
-  font-weight: bolder;
-}
-
-.font-lato-low-bol-1-4-600 {
-  font-family: "lato", sans-serif;
-  font-size: 1.4vw;
-  font-weight: 600;
-  color: #ffca4c;
-  margin-bottom: 10px;
-}
-
 .f-lg-goose-5-3-500 {
   font-family: "Cocogoose", sans-serif;
   font-weight: 500;
@@ -53,6 +38,21 @@
   font-family: "lato", sans-serif;
   font-weight: 500;
   font-size: 2vw;
+}
+
+.f-lg-lato-1-8-bolder {
+  font-family: "lato", sans-serif;
+  text-transform: capitalize;
+  font-size: 1.8vw;
+  font-weight: bolder;
+}
+
+.f-lg-lato-1-4-600 {
+  font-family: "lato", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 600;
+  color: #ffca4c;
+  margin-bottom: 10px;
 }
 
 .f-lg-lato-1-2-500 {
@@ -670,6 +670,12 @@ body {
 .past-event-1 h3 {
   color: #fff;
   z-index: 998;
+}
+
+.list-past-pictures {
+  padding-top: 3vh;
+  display: flex;
+  flex-flow: row;
 }
 
 .past-event-2 {
@@ -1338,11 +1344,6 @@ body {
     padding-right: 1.5vw;
   }
 
-  .card-content header h2 {
-    font-size: 2.8vw;
-    padding-bottom: 1vh;
-  }
-
   .card-content span {
     padding: 1px;
     margin: 4px;
@@ -1375,12 +1376,6 @@ body {
   .content-footer p {
     text-align: center;
     padding: 0 6vw;
-  }
-
-  .content-footer p a {
-    font-weight: bold;
-    text-decoration: none;
-    color: #272a31;
   }
 
   .img-footer {
@@ -1417,36 +1412,32 @@ body {
     align-items: center;
   }
 
-  .program-activities article {
+  .item-activitie {
     width: 95vw;
     margin-top: 5px;
     height: 25vh;
     flex-flow: row;
   }
 
-  .program-activities article img {
+  .item-activitie img {
     height: 10vw;
     width: 15vw;
     padding: 0 3.5vw;
     margin-top: 15px;
   }
 
-  .program-activities article header {
+  .item-activitie header {
     padding: 0 2vw;
     min-width: 20vw;
   }
 
-  .program-activities article header h2 {
-    font-size: 3vw;
-    text-align: left;
-    line-height: 35px;
-  }
-
-  .program-activities article p {
-    padding: 0 4vw;
+  .item-activitie p {
+    color: #fff;
+    padding: 0 10px;
+    font-family: "lato", sans-serif;
     line-height: 25px;
-    text-align: left;
-    font-size: 2vw;
+    font-weight: 300;
+    font-size: 1.2vw;
   }
 
   #SeeWholeProgram {
@@ -1510,8 +1501,18 @@ body {
   .f-md-lato-2-8-bolder {
     font-family: "lato", sans-serif;
     text-transform: capitalize;
-    font-size: 1.8vw;
+    font-size: 2.8vw;
     font-weight: bolder;
+  }
+
+  .f-md-lato-3-0-100-l {
+    font-family: "lato", sans-serif;
+    text-align: left;
+    line-height: 35px;
+  }
+
+  .pb-md-1vw {
+    padding-bottom: 1vh;
   }
 }
 
@@ -1651,4 +1652,8 @@ body {
   font-size: 1rem;
   color: #272a31;
   padding-right: 0;
+}
+
+.pb-1vw {
+  padding-bottom: 1vh;
 }

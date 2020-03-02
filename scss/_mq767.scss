@@ -132,13 +132,6 @@
     padding-left: 3vw;
     padding-right: 1.5vw;
 
-    header {
-      h2 {
-        font-size: 2.8vw;
-        padding-bottom: 1vh;
-      }
-    }
-
     span {
       padding: 1px;
       margin: 4px;
@@ -171,12 +164,6 @@
     p {
       text-align: center;
       padding: 0 6vw;
-
-      a {
-        font-weight: bold;
-        text-decoration: none;
-        color: $color-dark;
-      }
     }
   }
 
@@ -212,37 +199,33 @@
     display: flex;
     flex-flow: column;
     align-items: center;
+  }
 
-    article {
-      width: 95vw;
-      margin-top: 5px;
-      height: 25vh;
-      flex-flow: row;
+  .item-activitie {
+    width: 95vw;
+    margin-top: 5px;
+    height: 25vh;
+    flex-flow: row;
 
-      img {
-        height: 10vw;
-        width: 15vw;
-        padding: 0 3.5vw;
-        margin-top: 15px;
-      }
+    img {
+      height: 10vw;
+      width: 15vw;
+      padding: 0 3.5vw;
+      margin-top: 15px;
+    }
 
-      header {
-        padding: 0 2vw;
-        min-width: 20vw;
+    header {
+      padding: 0 2vw;
+      min-width: 20vw;
+    }
 
-        h2 {
-          font-size: 3vw;
-          text-align: left;
-          line-height: 35px;
-        }
-      }
-
-      p {
-        padding: 0 4vw;
-        line-height: 25px;
-        text-align: left;
-        font-size: 2vw;
-      }
+    p {
+      color: $color-white;
+      padding: 0 10px;
+      font-family: "lato", sans-serif;
+      line-height: 25px;
+      font-weight: 300;
+      font-size: 1.2vw;
     }
   }
 
@@ -315,7 +298,17 @@
   .f-md-lato-2-8-bolder {
     font-family: "lato", sans-serif;
     text-transform: capitalize;
-    font-size: 1.8vw;
+    font-size: 2.8vw;
     font-weight: bolder;
+  }
+
+  .f-md-lato-3-0-100-l {
+    font-family: "lato", sans-serif;
+    text-align: left;
+    line-height: 35px;
+  }
+
+  .pb-md-1vw {
+    padding-bottom: 1vh;
   }
 }

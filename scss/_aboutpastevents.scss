@@ -80,6 +80,12 @@
   }
 }
 
+.list-past-pictures {
+  padding-top: 3vh;
+  display: flex;
+  flex-flow: row;
+}
+
 .past-event-2 {
   background-image: url(../img/conf2018.jpg);
   background-size: cover;

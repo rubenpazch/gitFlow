@@ -1,20 +1,5 @@
 @import '../scss/colors.scss';
 
-.f-lg-lato-1-8-bolder {
-  font-family: "lato", sans-serif;
-  text-transform: capitalize;
-  font-size: 1.8vw;
-  font-weight: bolder;
-}
-
-.font-lato-low-bol-1-4-600 {
-  font-family: "lato", sans-serif;
-  font-size: 1.4vw;
-  font-weight: 600;
-  color: $color-orange-light;
-  margin-bottom: 10px;
-}
-
 .f-lg-goose-5-3-500 {
   font-family: "Cocogoose", sans-serif;
   font-weight: 500;
@@ -41,6 +26,21 @@
   font-family: "lato", sans-serif;
   font-weight: 500;
   font-size: 2vw;
+}
+
+.f-lg-lato-1-8-bolder {
+  font-family: "lato", sans-serif;
+  text-transform: capitalize;
+  font-size: 1.8vw;
+  font-weight: bolder;
+}
+
+.f-lg-lato-1-4-600 {
+  font-family: "lato", sans-serif;
+  font-size: 1.4vw;
+  font-weight: 600;
+  color: $color-orange-light;
+  margin-bottom: 10px;
 }
 
 .f-lg-lato-1-2-500 {
