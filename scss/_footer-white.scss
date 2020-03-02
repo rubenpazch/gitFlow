@@ -1,7 +1,7 @@
-.footer-container-dark {
+.footer-container-white {
   width: 100%;
   height: 40vh;
-  background-color: $color-dark;
+  background-color: $color-white;
   display: flex;
   flex-flow: row;
   align-items: center;
@@ -9,25 +9,23 @@
   padding: 0 10vw;
 }
 
-.content-footer-dark {
+.content-footer-white {
   padding-left: 4vw;
 
   h2 {
     padding-bottom: 1vw;
     font-family: "lato", sans-serif;
     font-weight: bold;
-    color: $color-white;
   }
 
   p {
     font-family: "lato", sans-serif;
     line-height: 20px;
-    color: $color-white;
 
     a {
       font-weight: bold;
       text-decoration: none;
-      color: $color-white;
+      color: $color-dark;
     }
   }
 }

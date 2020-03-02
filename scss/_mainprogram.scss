@@ -28,10 +28,6 @@
     font-size: 1.3vw;
     font-family: "lato", sans-serif;
     padding-top: 3vw;
-
-    a {
-      color: $color-white;
-    }
   }
 
   button {
@@ -47,47 +43,6 @@
 .program-activities {
   display: flex;
   flex-flow: row;
-
-  article {
-    width: 16vw;
-    height: 50vh;
-    margin-right: 3px;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: start;
-    z-index: 1;
-    position: relative;
-    text-align: center;
-
-    img {
-      height: 4vw;
-      z-index: 999;
-      margin-top: 35px;
-      margin-bottom: 15px;
-    }
-
-    header {
-      padding: 0 0;
-
-      h2 {
-        font-family: "lato", sans-serif;
-        font-size: 1.4vw;
-        font-weight: 600;
-        color: $color-orange-light;
-        margin-bottom: 10px;
-      }
-    }
-
-    p {
-      color: $color-white;
-      padding: 0 10px;
-      font-family: "lato", sans-serif;
-      line-height: 25px;
-      font-weight: 300;
-      font-size: 1.2vw;
-    }
-  }
 
   article::after {
     background-color: $color-white;
@@ -106,10 +61,35 @@
   }
 }
 
-#SeeWholeProgram {
-  display: initial;
-}
+.item-activitie {
+  width: 16vw;
+  height: 50vh;
+  margin-right: 3px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: start;
+  z-index: 1;
+  position: relative;
+  text-align: center;
 
-#btnJoinWorkshop {
-  display: none;
+  img {
+    height: 4vw;
+    z-index: 999;
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  header {
+    padding: 0 0;
+  }
+
+  p {
+    color: $color-white;
+    padding: 0 10px;
+    font-family: "lato", sans-serif;
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 1.2vw;
+  }
 }
